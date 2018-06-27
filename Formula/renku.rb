@@ -149,10 +149,10 @@ class Renku < Formula
     sha256 "8886bfec5ad7afb391ed5443b1f697c6f4ae98d0e5620839d8b4499c032ada3f"
   end
 
-  resource "ruamel.ordereddict" do
-    url "https://files.pythonhosted.org/packages/b1/8f/3b1b407ff387e006a4a33e62182b212077bed41676451d60327955a50c3c/ruamel.ordereddict-0.4.13.tar.gz"
-    sha256 "bf0a198c8ce5d973c24e5dba12d3abc254996788ca6ad8448eabc6aa710db149"
-  end
+  # resource "ruamel.ordereddict" do
+  #   url "https://files.pythonhosted.org/packages/b1/8f/3b1b407ff387e006a4a33e62182b212077bed41676451d60327955a50c3c/ruamel.ordereddict-0.4.13.tar.gz"
+  #   sha256 "bf0a198c8ce5d973c24e5dba12d3abc254996788ca6ad8448eabc6aa710db149"
+  # end
 
   resource "ruamel.yaml" do
     url "https://files.pythonhosted.org/packages/cf/86/7ef6c24317e20e6cef0eab407520d49f3d3836e454d5377bdcbcf03d385c/ruamel.yaml-0.14.12.tar.gz"
