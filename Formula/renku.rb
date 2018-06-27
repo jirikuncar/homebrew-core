@@ -1,13 +1,14 @@
 class Renku < Formula
   include Language::Python::Virtualenv
 
-  desc "Renku CLI and SDK for Python"
-  homepage "https://renku.io"
+  desc "Python SDK and CLI for the Renku platform."
+  homepage "https://github.com/SwissDataScienceCenter/renku-python"
   url "https://files.pythonhosted.org/packages/8c/a0/be8ca6ac70ddd5f3f6314c732fee1683993dbbf9a343324319c456e2843f/renku-0.1.0.dev20180621.tar.gz"
   sha256 "9796ce5dc646b1a794c55858832a893b6ef74e1d3b0df281aaa95eff8db8eea3"
   head "https://github.com/SwissDataScienceCenter/renku-python.git"
 
-  depends_on "python"
+  depends_on "python3"
+  depends_on "git-lfs"
 
   resource "attrs" do
     url "https://files.pythonhosted.org/packages/e4/ac/a04671e118b57bee87dabca1e0f2d3bda816b7a551036012d0ca24190e71/attrs-18.1.0.tar.gz"
